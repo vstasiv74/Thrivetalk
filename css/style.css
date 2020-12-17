@@ -1,0 +1,202 @@
+@import url(null.css);
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit.eot");
+  src: local("Larsseit"),
+    url("../fonts/Larsseit.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Larsseit.woff2") format("woff2"),
+    url("../fonts/Larsseit.woff") format("woff"),
+    url("..fonts/Larsseit.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit-Bold.eot");
+  src: local("Larsseit Bold"), local("Larsseit-Bold"),
+    url("../fonts/Larsseit-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Larsseit-Bold.woff2") format("woff2"),
+    url("../fonts/Larsseit-Bold.woff") format("woff"),
+    url("../fonts/Larsseit-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit-Medium.eot");
+  src: local("Larsseit Medium"), local("Larsseit-Medium"),
+    url("../fonts/Larsseit-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Larsseit-Medium.woff2") format("woff2"),
+    url("../fonts/Larsseit-Medium.woff") format("woff"),
+    url("../fonts/Larsseit-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+/* * {
+  border: 1px solid red;
+} */
+
+body {
+    font-family: Larsseit;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header styles */
+
+.header__row {
+  position: relative;
+  background: linear-gradient(to right,#F4F9E2 77.5%,#ffff 22.5%);
+  padding-bottom: 30px;
+}
+.header__navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 43px;
+  right: -25px;
+}
+.header__navbar_logo {
+  margin-top: -9px;
+  margin-right: 10px;
+}
+.logo_text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: #62D0DF;
+}
+.header__navbar_menu {
+  width: 233px;
+  height: 27px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu_link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #22356F;
+}
+.menu_link:hover {
+  box-shadow: inset 0px -1px 0px #22356F;
+}
+.header__navbar_button {
+  width: 150px;
+  height: 50px;
+  background: #62D0DF;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: -11px;
+}
+.button_btn {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.header__body {
+  display: flex;
+  justify-content: flex-end;
+}
+.header__body_left {
+  width: 600px;
+  /* margin-top: 246px; */
+  margin-top: calc(150px + (234 - 150) * ((100vw - 1200px) / (1440 - 1200)));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+
+}
+.left_logo {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: #62D0DF;
+  margin-bottom: 41px;
+  margin-left: 78px;
+}
+.left_title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: -0.035em;
+  color: #22356F;
+  text-transform: uppercase;
+  margin-bottom: 61px;
+  margin-left: 78px;
+  padding-right: 18px;
+}
+.left_description {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 46px;
+  color: #22356F;
+  margin-left: 78px;
+  padding-right: 26px;
+  margin-bottom: 61px;
+}
+.left_forms {
+  display: flex;
+  margin-left: 78px;
+}
+.forms_link {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #FAB63E;
+  text-transform: uppercase;
+  margin-right: 38px;
+  padding-left: 31px;
+}
+.forms_link:nth-child(2) {
+  margin-right: 0;
+  padding-left: 10px;
+  margin-left: 19px;
+}
+.forms_link:hover {
+  background: #F9B640;
+  color: #F4F9E2;
+  width: 150px;
+  height: 50px;
+  white-space: nowrap;
+}
+.header__body_right {
+  width: 50vw;
+}
+.right_img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
