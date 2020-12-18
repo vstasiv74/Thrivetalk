@@ -117,7 +117,6 @@ body {
 }
 .header__body_left {
   width: 600px;
-  /* margin-top: 246px; */
   margin-top: calc(150px + (234 - 150) * ((100vw - 1200px) / (1440 - 1200)));
   display: flex;
   flex-direction: column;
@@ -187,6 +186,9 @@ body {
 }
 .right_img {
   width: 100%;
+}
+.right_img_mob {
+  display: none;
 }
 
 
