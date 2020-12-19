@@ -10,5 +10,7 @@ open.addEventListener("click", function () {
 close.addEventListener("click", function () {
 	this.style.display = "none"
 	open.style.display = "block"
-	links.style.display = "none"
+	// links.style.display = "none"
+	// links.setAttribute("style", "")
+	links.style.display = ""
 })

@@ -79,16 +79,25 @@ body {
   color: #62D0DF;
 }
 .header__navbar_menu {
-  width: 233px;
-  height: 27px;
+ 
+}
+.header__navbar_menu ul {
+  width: 267px;
   display: flex;
   justify-content: space-between;
+}
+.header__navbar_menu li {
+  
+}
+.burger__menu {
+  display: none;
 }
 .menu_link {
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
   color: #22356F;
+  padding-bottom: 27px;
 }
 .menu_link:hover {
   box-shadow: inset 0px -1px 0px #22356F;
@@ -101,6 +110,9 @@ body {
   display: flex;
   justify-content: center;
   margin-top: -11px;
+}
+.header__navbar_button_mob {
+  display: none;
 }
 .button_btn {
   font-size: 14px;
@@ -130,7 +142,7 @@ body {
   line-height: 27px;
   letter-spacing: -0.035em;
   color: #62D0DF;
-  margin-bottom: 41px;
+  margin-bottom: 37px;
   margin-left: 78px;
 }
 .left_title {
