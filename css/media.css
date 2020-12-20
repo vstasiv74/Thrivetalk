@@ -18,6 +18,21 @@
     .header__body_right {
     width: 60vw;
     }
+    .why-thrive__text {
+    max-width: 500px;
+    margin-left: calc(80px + (100 - 80) * ((100vw - 1000px) / (1200 - 1000)));
+    }
+    .why-thrive__title {
+    font-size: 30px;
+    }
+    .why-thrive__description {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    }
+    .why-thrive__description span {
+      font-size: 16px;
+    }
 }
 
 @media (max-width:1000px) {
@@ -43,6 +58,20 @@
     }
     .header__body_right {
     width: 70vw;
+    }
+     .why-thrive__text {
+    margin: 50px; 
+    }
+    .why-thrive__title {
+    font-size: 24px;
+    }
+    .why-thrive__description {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    }
+    .why-thrive__description span {
+      font-size: 14px;
     }
 }
 
@@ -75,6 +104,17 @@
     }
     .forms_link {
     font-size: 12px;
+    }
+    .why-thrive__title {
+    font-size: 22px;
+    }
+    .why-thrive__description {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    }
+    .why-thrive__description span {
+      font-size: 12px;
     }
 }
 
@@ -214,7 +254,27 @@
   line-height: 16px;
   color: #ffffff; 
   text-transform: uppercase;
+ }
+  .why-thrive__row {
+    display: flex;
+    flex-direction: column;
+  }
+  .why-thrive__text {
+    max-width: 800px;
+    margin: 30px;
+  }
+   .why-thrive__title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+    .why-thrive__description {
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 30px;
+    }
+    .why-thrive__description span {
+      font-size: 14px;
+    }
+
 }
-
-
 
