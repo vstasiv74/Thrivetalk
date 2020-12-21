@@ -1,3 +1,16 @@
+@media (min-width:1440px) {
+    .header__body_left {
+      margin-top: 234px;
+    }
+    .why-thrive__text {
+      margin-left: 163px;
+    }
+    .why-thrive__title {
+      margin-top: 150px;
+      margin-bottom: 87px;
+    }
+}
+
 @media (max-width:1200px) {
     .header__body_left {
     margin-top: 150px
@@ -33,6 +46,35 @@
     .why-thrive__description span {
       font-size: 16px;
     }
+    .about-us__content {
+      font-size: 28px;
+      line-height: 30px;
+    }
+    .underline {
+      width: 230px;
+    }
+    .about-us__content::before {
+      width: 7px;
+      height: 7px;
+      right: 100px;
+    }
+    .about-us__picture_2::before {
+    right: 80px;
+    }
+    .about-us__text_footer {
+      margin-left: 0;
+    }
+    .about-us__text_description {
+      margin-left: 0;
+      font-size: 22px;
+    }
+    .about-us__text-block {
+      margin-top: 100px;
+    }
+    .about-us__picture-block {
+      margin-bottom: 100px;
+    }
+
 }
 
 @media (max-width:1000px) {
@@ -72,6 +114,36 @@
     }
     .why-thrive__description span {
       font-size: 14px;
+    }
+    .about-us__content {
+      font-size: 24px;
+      line-height: 26px;
+    }
+    .underline {
+      width: 185px;
+    }
+    .about-us__content::before {
+      width: 6px;
+      height: 6px;
+      right: 85px;
+    }
+    .about-us__picture_2::before {
+    right: 70px;
+    }
+    .about-us__text_footer {
+      font-size: 14px;
+    }
+    .about-us__title  {
+      font-size: 14px;
+    }
+    .about-us__text_description {
+      font-size: 20px;
+    }
+    .about-us__text-block {
+      margin-top: 90px;
+    }
+    .about-us__picture-block {
+      margin-bottom: 90px;
     }
 }
 
@@ -115,6 +187,44 @@
     }
     .why-thrive__description span {
       font-size: 12px;
+    }
+    .about-us__content {
+      font-size: 20px;
+      line-height: 22px;
+    }
+    .underline {
+      width: 160px;
+      margin-bottom: 20px;
+      margin-top: 50px;
+    }
+    .about-us__content::before {
+      width: 5px;
+      height: 5px;
+      right: 70px;
+      top: 85px;
+    }
+    .about-us__picture_2::before {
+    right: 55px;
+    }
+    .about-us__text_footer {
+      font-size: 12px;
+    }
+    .about-us__title  {
+      font-size: 12px;
+      margin-left: 80px;
+    }
+    .about-us__text_description {
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .about-us__text-block {
+      margin-top: 80px;
+    }
+    .about-us__picture-block {
+      margin-bottom: 80px;
+    }
+    .about-us__text {
+      max-width: 500px;
     }
 }
 
@@ -190,6 +300,7 @@
     flex-direction: column;
     top: 0;
     right: 0;
+    z-index: 5;
    }
    .header__navbar_button {
     display: none;
@@ -252,7 +363,7 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
-  color: #ffffff; 
+  color: #ffff; 
   text-transform: uppercase;
  }
   .why-thrive__row {
@@ -273,7 +384,60 @@
     margin-bottom: 30px;
     }
     .why-thrive__description span {
-      font-size: 14px;
+    font-size: 14px;
+    }
+    .about-us__text-block {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    }
+    .about-us__title {
+    font-size: 16px;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 20px;
+    }
+    .about-us__text {
+    max-width: 800px;;
+    }
+    .about-us__text_description {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 30px;
+    }
+    .about-us__text_footer {
+    font-size: 16px;
+    margin-bottom: 0;
+    }
+    .about-us__picture-block {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0px auto;
+    }
+    .about-us__content {
+    font-size: 28px;
+    line-height: 30px;
+    }
+    .underline {
+    width: 220px;
+    margin-bottom: 40px;
+    margin-top: 70px;
+    }
+    .about-us__content::before {
+    width: 7px;
+    height: 7px;
+    right: 95px;
+    top: 127px;
+    }
+    .about-us__picture_2::before {
+    right: 75px;
+    }
+    .about-us__picture-block {
+    margin-bottom: 20px;
+    }
+    .about-us__picture {
+    margin-bottom: 20px;
     }
 
 }
