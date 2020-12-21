@@ -74,6 +74,21 @@
     .about-us__picture-block {
       margin-bottom: 100px;
     }
+    .picture-box__content {
+      font-size: 28px;
+      line-height: 30px;
+    }
+    .picture-box__content::before {
+      width: 9px;
+      height: 9px;
+      right: 70px;
+    }
+    .picture-box__underline {
+      width: 300px;
+    }
+    .picture-box__picture_4::before {
+      right: 90px;
+    }
 
 }
 
@@ -145,6 +160,42 @@
     .about-us__picture-block {
       margin-bottom: 90px;
     }
+    .picture-box__content {
+      font-size: 24px;
+      line-height: 26px;
+      padding-right: 100px;
+    }
+    .picture-box__content::before {
+      width: 7px;
+      height: 7px;
+      right: 65px;
+      top: 133px;
+    }
+    .picture-box__underline {
+      width: 260px;
+    }
+    .picture-box__picture_4::before {
+      right: 82px;
+    }
+    .picture-box__picture_1 hr {
+      margin-left: 102px;
+    }
+    .picture-box__picture_2 hr {
+      margin-left: 101px;
+    }
+    .picture-box__picture_3 hr {
+      margin-left: 102px;
+    }
+    .picture-box__picture_4 hr {
+      margin-left: 100px;
+    }
+    .picture-box__picture_5 hr {
+      margin-left: 101px;
+    }
+    .picture-box__picture_6 hr {
+      margin-left: 103px;
+    }
+
 }
 
 @media (max-width:900px) {
@@ -225,6 +276,41 @@
     }
     .about-us__text {
       max-width: 500px;
+    }
+    .picture-box__content {
+      font-size: 22px;
+      line-height: 22px;
+      padding-right: 80px;
+    }
+    .picture-box__content::before {
+      width: 6px;
+      height: 6px;
+      right: 57px;
+      top: 132px;
+    }
+    .picture-box__underline {
+      width: 220px;
+    }
+    .picture-box__picture_4::before {
+      right: 75px;
+    }
+    .picture-box__picture_1 hr {
+      margin-left: 85px;
+    }
+    .picture-box__picture_2 hr {
+      margin-left: 85px;
+    }
+    .picture-box__picture_3 hr {
+      margin-left: 85px;
+    }
+    .picture-box__picture_4 hr {
+      margin-left: 80px;
+    }
+    .picture-box__picture_5 hr {
+      margin-left: 85px;
+    }
+    .picture-box__picture_6 hr {
+      margin-left: 85px;
     }
 }
 
@@ -436,9 +522,34 @@
     .about-us__picture-block {
     margin-bottom: 20px;
     }
-    .about-us__picture {
-    margin-bottom: 20px;
+    .picture-block {
+      display: flex;
+      flex-direction: column;
+      width: 85%;
+      margin: 0 auto;
+      margin-bottom: 20px;
     }
+    .picture-box__content {
+      font-size: 28px;
+      line-height: 30px;
+    }
+    .picture-box__content::before {
+      width: 7px;
+      height: 7px;
+      right: 65px;
+      top: 132px;
+    }
+    .picture-box__underline {
+      width: 220px;
+    }
+    .picture-box__picture_4 {
+      padding-right: 55px;
+    }
+    .picture-box__picture_4::before {
+      right: 85px;
+    }
+    .picture-box__picture_4 hr {
+      margin-left: 60px;
 
 }
 

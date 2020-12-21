@@ -304,7 +304,6 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  display: flex;
   justify-content: first baseline;
   align-items: center;
   font-size: 32px;
@@ -366,6 +365,107 @@ body {
   height: 2px;
   margin-top: 62px;
   margin-bottom: 30px;
+}
+
+/* styles for picture-block section */
+
+.picture-block {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+.picture-box {
+  width: 100%;
+  position: relative;
+  padding-bottom: 100%;
+}
+.picture-box__content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.picture-box__content::before {
+  content: "";
+  display: block;
+  background:#E9B730;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  top: 145px;
+  right: 84px;
+}
+.picture-box__picture_1 {
+  background: #22356F;
+  padding-right: 159px;
+}
+.picture-box__picture_1 hr {
+  margin-left: 153px;
+}
+.picture-box__picture_2 {
+  background: #0052C1;
+  padding-right: 177px;
+}
+.picture-box__picture_2 hr {
+  margin-left: 173px;
+}
+.picture-box__picture_2::before {
+  right: 76px;
+}
+.picture-box__picture_3 {
+  background: url(../img/photo3.png) center / cover no-repeat;
+  padding-right: 147px;
+}
+.picture-box__picture_3 hr {
+  margin-left: 144px;
+}
+.picture-box__picture_3::before {
+  right: 91px;
+}
+.picture-box__picture_4 {
+  background: #62D0DF;
+  padding-right: 109px;
+}
+.picture-box__picture_4 hr {
+  margin-left: 107px;
+}
+.picture-box__picture_4::before {
+  right: 109px;
+}
+.picture-box__picture_5 {
+  background: #DEE1FF;
+  padding-right: 162px;
+}
+.picture-box__picture_5 hr {
+  margin-left: 154px;
+}
+.picture-box__picture_6 {
+  background: #8F00FF;
+  padding-right: 144px;
+}
+.picture-box__picture_6 hr {
+  margin-left: 140px;
+}
+.picture-box__picture_6::before {
+  right: 92px;
+}
+.picture-box__underline {
+  background-color:#ffff;
+  width: 340px;
+  height: 2px;
+  margin-top: 85px;
+  margin-bottom: 33px;
+  margin-left: 67px;
 }
 
 
