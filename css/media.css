@@ -102,7 +102,16 @@
       margin-bottom: 24px;
       text-align: justify;
     }
-
+    .get-help-text {
+      padding-left: 80px;
+      padding-top: 70px;
+      padding-right: 120px;
+    }
+    .get-help-text__description {
+      font-size: 30px;
+      line-height: 50px;
+      text-align: justify;
+    }
 }
 
 @media (max-width:1000px) {
@@ -220,6 +229,9 @@
       font-size: 20px;
       margin-bottom: 10px;
     }
+    .get-help-text__description {
+      font-size: 24px;
+      line-height: 40px;
 
 }
 
@@ -337,6 +349,23 @@
     .picture-box__picture_6 hr {
       margin-left: 85px;
     }
+    .get-help-text {
+      padding-left: 70px;
+      padding-top: 50px;
+      padding-right: 100px;
+      padding-bottom: 30px;
+    }
+    .get-help-text__title {
+      font-size: 14px;
+    }
+    .get-help-text__description {
+      font-size: 20px;
+      line-height: 36px;
+      margin-top: 0px;
+    }
+    .get-help-text-footer {
+      font-size: 14px;
+    }
 }
 
 @media (max-width:767px) { 
@@ -345,6 +374,9 @@
     }
     .right_img {
     display: none;
+    }
+    .header__body_right {
+    width: 100%;
     }
     .right_img_mob {
     display: block;
@@ -357,6 +389,7 @@
     }
     .header__row {
     background: #F4F9E2;
+    padding-bottom: 0;
     }
     .header__body_left {
     display: flex;
@@ -497,14 +530,14 @@
     .why-thrive__description span {
     font-size: 14px;
     }
-    .why-thrive__image {
+    /* .why-thrive__image {
       display: flex;
       justify-content: center;
       padding-bottom: 30px;
     }
     .why-thrive__image_img {
       width: 85%;
-    }
+    } */
     .about-us__text-block {
     display: flex;
     flex-direction: column;
@@ -531,8 +564,8 @@
     .about-us__picture-block {
     display: flex;
     flex-direction: column;
-    width: 85%;
-    margin: 0px auto;
+    /* width: 85%;
+    margin: 0px auto; */
     }
     .about-us__content {
     font-size: 28px;
@@ -553,13 +586,13 @@
     right: 75px;
     }
     .about-us__picture-block {
-      margin-bottom: 20px;
+      margin-bottom: 0px;
     }
     .picture-block {
       display: flex;
       flex-direction: column;
-      width: 85%;
-      margin: 0 auto;
+      /* width: 85%;
+      margin: 0 auto; */
     }
     .picture-box__content {
       font-size: 28px;
@@ -599,5 +632,22 @@
     .text-block__title {
       margin-top: 40px;
     }
+    .get-help-block {
+      display: flex;
+      flex-direction: column;
+    }
+    .get-help-text {
+      padding: 50px;
+    }
+    .get-help-text__title {
+      font-size: 16px;
+    }
+    .get-help-text__description {
+      font-size: 24px;
+      line-height: 36px;
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+
 }
 
