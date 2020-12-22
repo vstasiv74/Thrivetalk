@@ -89,6 +89,19 @@
     .picture-box__picture_4::before {
       right: 90px;
     }
+    .section-text-block {
+      padding: 60px;
+      padding-left: 100px;
+    }
+    .text-block {
+      column-gap: 5vw;
+      row-gap: 5vw;
+    }
+    .text-block__title {
+      font-size: 24px;
+      margin-bottom: 24px;
+      text-align: justify;
+    }
 
 }
 
@@ -194,6 +207,18 @@
     }
     .picture-box__picture_6 hr {
       margin-left: 103px;
+    }
+    .section-text-block {
+      padding: 50px;
+      padding-left: 80px;
+    }
+    .text-block {
+      column-gap: 1vw;
+      row-gap: 2vw;
+    }
+    .text-block__title {
+      font-size: 20px;
+      margin-bottom: 10px;
     }
 
 }
@@ -472,6 +497,14 @@
     .why-thrive__description span {
     font-size: 14px;
     }
+    .why-thrive__image {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 30px;
+    }
+    .why-thrive__image_img {
+      width: 85%;
+    }
     .about-us__text-block {
     display: flex;
     flex-direction: column;
@@ -520,14 +553,13 @@
     right: 75px;
     }
     .about-us__picture-block {
-    margin-bottom: 20px;
+      margin-bottom: 20px;
     }
     .picture-block {
       display: flex;
       flex-direction: column;
       width: 85%;
       margin: 0 auto;
-      margin-bottom: 20px;
     }
     .picture-box__content {
       font-size: 28px;
@@ -550,6 +582,22 @@
     }
     .picture-box__picture_4 hr {
       margin-left: 60px;
-
+    }
+    .section-text-block {
+      padding: 0;
+      padding-left: 60px;
+      padding-right: 50px;
+      padding-bottom: 50px;
+    }
+    .text-block {
+      display: flex; 
+      flex-direction: column;
+    }
+    .text-box {
+      width: 100%;
+    }
+    .text-block__title {
+      margin-top: 40px;
+    }
 }
 
