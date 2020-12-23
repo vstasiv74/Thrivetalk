@@ -529,10 +529,10 @@ body {
 .get-help-text__description {
   font-size: 36px;
   font-weight: 700;
-  line-height: 53px;
+  line-height: 60px;
   letter-spacing: -0.01em;
   color: #22356F;
-  margin-top: 55px;
+  margin-top: 77px;
 }
 .get-help-text__description span {
   color: #62D0DF;
@@ -549,6 +549,67 @@ body {
   flex: 0 0 33.33%;
 }
 .get-help__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* styles for contact-us section */
+
+.contact-us-block {
+  display: flex;
+  justify-content: space-between;
+  background: #22356F;
+}
+.contact-us-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 107px;
+  padding-left: 178px;
+  padding-bottom: 50px;
+  padding-right: 187px;
+}
+.contact-us-text__header {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.contact-us-text__title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 81px;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+  margin-top: 167px;
+
+}
+.contact-us-text__description {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 53px;
+  letter-spacing: -0.005em;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+
+}
+.contact-us-text__footer {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #62D0DF;
+  text-transform: uppercase;
+}
+.contact-us-image {
+  flex: 0 0 33.33%;
+}
+.contact-us-image__img {
   width: 100%;
   height: auto;
   object-fit: cover;

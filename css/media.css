@@ -9,7 +9,25 @@
       margin-top: 150px;
       margin-bottom: 87px;
     }
+} 
+
+@media (max-width:1300px) {
+    .contact-us-text {
+      padding-top: 90px;
+      padding-left: 120px;
+      padding-right: 150px;
+    }
+    .contact-us-text__title {
+      font-size: 50px;
+      line-height: 70px;
+      margin-top: 100px;
+    }
+    .contact-us-text__description {
+      font-size: 30px;
+      line-height: 40px;
+    }
 }
+
 
 @media (max-width:1200px) {
     .header__body_left {
@@ -111,6 +129,20 @@
       font-size: 30px;
       line-height: 50px;
       text-align: justify;
+    }
+    .contact-us-text {
+      padding-top: 70px;
+      padding-left: 100px;
+      padding-right: 120px;
+    }
+    .contact-us-text__title {
+      font-size: 40px;
+      line-height: 60px;
+      margin-top: 70px;
+    }
+    .contact-us-text__description {
+      font-size: 24px;
+      line-height: 32px;
     }
 }
 
@@ -232,7 +264,29 @@
     .get-help-text__description {
       font-size: 24px;
       line-height: 40px;
+    }
+    .contact-us-text {
+      padding-top: 50px;
+      padding-left: 70px;
+      padding-bottom: 30px;
+      padding-right: 90px;
+    }
+    .contact-us-text__header {
+      font-size: 12px;
+    }
+    .contact-us-text__title {
+      font-size: 32px;
+      line-height: 40px;
+      margin-top: 40px;
 
+    }
+    .contact-us-text__description {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .contact-us-text__footer {
+      font-size: 12px;
+    }
 }
 
 @media (max-width:900px) {
@@ -648,6 +702,31 @@
       margin-top: 50px;
       margin-bottom: 30px;
     }
-
+    .contact-us-block {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact-us-text {
+      padding-top: 50px;
+      padding-left: 70px;
+      padding-bottom: 40px;
+      padding-right: 50px;
+      order: 2;
+    }
+    .contact-us-text__title {
+      font-size: 40px;
+      line-height: 60px;
+      margin-top: 70px;
+      margin-bottom: 30px;
+    }
+    .contact-us-text__description {
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 30px;
+    }
+    .contact-us-image {
+      display: flex;
+      order: 1;
+    }
 }
 
