@@ -602,14 +602,6 @@
     .why-thrive__description span {
     font-size: 14px;
     }
-    /* .why-thrive__image {
-      display: flex;
-      justify-content: center;
-      padding-bottom: 30px;
-    }
-    .why-thrive__image_img {
-      width: 85%;
-    } */
     .about-us__text-block {
     display: flex;
     flex-direction: column;
@@ -636,8 +628,6 @@
     .about-us__picture-block {
     display: flex;
     flex-direction: column;
-    /* width: 85%;
-    margin: 0px auto; */
     }
     .about-us__content {
     font-size: 28px;
@@ -663,8 +653,6 @@
     .picture-block {
       display: flex;
       flex-direction: column;
-      /* width: 85%;
-      margin: 0 auto; */
     }
     .picture-box__content {
       font-size: 28px;
@@ -779,6 +767,9 @@
     line-height: 25px;
     letter-spacing: -0.006em;
     color: rgba(34, 53, 111, 0.5);
+  }
+  .footer-box {
+    padding-left: 70px;
   }
 }
 

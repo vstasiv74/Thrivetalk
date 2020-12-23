@@ -35,9 +35,6 @@
   font-weight: 500;
   font-style: normal;
 }
-/* * {
-  border: 1px solid red;
-} */
 
 body {
     font-family: Larsseit;
@@ -78,16 +75,10 @@ body {
   letter-spacing: -0.035em;
   color: #62D0DF;
 }
-.header__navbar_menu {
- 
-}
 .header__navbar_menu ul {
   width: 267px;
   display: flex;
   justify-content: space-between;
-}
-.header__navbar_menu li {
-  
 }
 .burger__menu {
   display: none;
@@ -485,8 +476,6 @@ body {
 }
 .text-box {
   width: 84%;
-
-
 }
 .text-block__title {
   font-size: 28px;
@@ -653,6 +642,32 @@ body {
   line-height: 25px;
   letter-spacing: -0.006em;
   color: rgba(34, 53, 111, 0.5);
+}
+
+/* styles for footer */
+
+.footer-box {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background: #62D0DF;
+  padding-left: 177px;
+  padding-top: 4px;
+}
+.footer-box__icon {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 11px;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+.footer-box__text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 11px;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
 }
 
 
