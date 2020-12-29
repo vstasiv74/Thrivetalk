@@ -3,7 +3,6 @@ let close = document.getElementById("close")
 let links = document.getElementById("links")
 let scrolllinks = document.querySelectorAll(".scroll-link")
 
-
 function openMenu() {
 	open.style.display = "none"
 	close.style.display = "block"
