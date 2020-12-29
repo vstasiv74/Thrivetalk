@@ -1,16 +1,36 @@
-var open = document.getElementById("open")
-var close = document.getElementById("close")
-var links = document.getElementById("links")
-		// console.log(close)
-open.addEventListener("click", function () {
-	this.style.display = "none"
+let open = document.getElementById("open")
+let close = document.getElementById("close")
+let links = document.getElementById("links")
+let scrolllinks = document.querySelectorAll(".scroll-link")
+
+
+function openMenu() {
+	open.style.display = "none"
 	close.style.display = "block"
 	links.style.display = "block"
+}
+
+function closeMenu() {
+	close.style.display = "none"
+	open.style.display = "block"
+	links.style.display = ""
+}
+
+open.addEventListener("click", function () {
+	openMenu();
 })
 close.addEventListener("click", function () {
-	this.style.display = "none"
-	open.style.display = "block"
-	// links.style.display = "none"
-	// links.setAttribute("style", "")
-	links.style.display = ""
+	closeMenu();
 })
+
+for (let i = 0; i < scrolllinks.length; i++) {
+	scrolllinks[i].addEventListener("click", function (e) {
+		console.log("clicked")
+		e.preventDefault();
+		let element = document.querySelector(this.getAttribute("href"));
+		let offset = element.getBoundingClientRect().top + window.pageYOffset - element.clientTop - 30;
+		window.scrollTo({top: offset, behavior: "smooth"});
+		closeMenu();
+	})
+}
+
